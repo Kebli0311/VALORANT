@@ -1,0 +1,138 @@
+/* 公用CSS文件 - style.css */  
+
+/* RESET */  
+* {  
+  margin: 0;  
+  padding: 0;  
+  box-sizing: border-box;  
+}  
+
+/* BODY SETTINGS */  
+body {  
+  font-family: 'Arial', sans-serif;  
+  color: #ffffff;  
+  background-image: url('images/valorant-bg.jpg');  
+  background-size: cover;  
+  background-attachment: fixed;  
+  background-position: center;  
+  overflow-x: hidden;  
+  line-height: 1.6em;  
+}  
+
+/* GLOBAL NAVIGATION */  
+nav {  
+  background: rgba(0, 0, 0, 0.8);  
+  padding: 15px;  
+  display: flex;  
+  justify-content: center;  
+  position: sticky;  
+  top: 0;  
+  z-index: 1000;  
+}  
+nav a {  
+  text-decoration: none;  
+  color: white;  
+  margin: 0 15px;  
+  font-weight: bold;  
+  font-size: 16px;  
+  padding: 5px 10px;  
+  border-radius: 4px;  
+  transition: all 0.3s ease-in-out;  
+}  
+nav a:hover {  
+  background-color: #1abc9c;  
+  color: #ffffff;  
+  transform: scale(1.1);  
+}  
+
+/* GENERAL CONTAINER */  
+.container {  
+  max-width: 1200px;  
+  margin: 40px auto 20px auto;  
+  padding: 20px;  
+  background: rgba(0, 0, 0, 0.6);  
+  border-radius: 12px;  
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);  
+}  
+
+/* HEADERS */  
+h1 {  
+  text-align: center;  
+  margin-bottom: 20px;  
+  color: #ffffff;  
+  font-size: 2.5em;  
+}  
+h2 {  
+  margin-bottom: 10px;  
+  color: #ff7675;  
+  font-size: 1.8em;  
+  text-transform: uppercase;  
+}  
+h3 {  
+  color: #1abc9c;  
+  font-size: 1.5em;  
+}  
+
+/* CARD AND LAYOUTS */  
+.card {  
+  background: rgba(255, 255, 255, 0.1);  
+  margin-bottom: 24px;  
+  border-radius: 12px;  
+  overflow: hidden;  
+  transition: transform 0.3s ease, box-shadow 0.3s ease;  
+}  
+.card:hover {  
+  transform: translateY(-5px);  
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);  
+}  
+.card img {  
+  width: 100%;  
+  display: block;  
+  height: 600px;  
+  border-bottom: 2px solid #1abc9c;  
+}  
+.card h2 {  
+  padding: 16px;  
+  color: #ffffff;  
+  font-size: 1.8em;  
+  text-align: center;  
+  background: linear-gradient(45deg, #1abc9c, #2980b9);  
+}  
+.card p {  
+  padding: 16px;  
+}  
+
+/* WEAPON PAGE FILTER BUTTONS */  
+.filter-buttons {  
+  text-align: center;  
+  margin: 20px 0;  
+}  
+.filter-buttons button {  
+  background-color: #1abc9c;  
+  color: white;  
+  border: none;  
+  padding: 10px 20px;  
+  margin: 8px;  
+  border-radius: 5px;  
+  transition: all 0.3s ease;  
+  font-weight: bold;  
+}  
+.filter-buttons button:hover {  
+  background-color: #16a085;  
+  transform: scale(1.1);  
+}  
+
+/* FOOTER */  
+footer {  
+  background-color: #2c3e50;  
+  color: white;  
+  text-align: center;  
+  padding: 20px 0;  
+  opacity: 0.95;  
+  margin-top: 30px;  
+}  
+footer a {  
+  color: #1abc9c;  
+  text-decoration: none;  
+  font-weight: bold;  
+}
